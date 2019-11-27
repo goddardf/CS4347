@@ -12,7 +12,7 @@ tensorboard_callback = keras.callbacks.TensorBoard(log_dir='food101runs')
 
 batch_size = 10
 num_classes = 10
-epochs = 10
+epochs = 5
 data_augmentation = True
 save_dir = os.path.join(os.getcwd(), 'archive')
 model_name = 'kerasfood101.h5'
